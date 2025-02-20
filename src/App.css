@@ -13,8 +13,8 @@ body {
 
 .App {
   background-color: rgba(0, 0, 0, 0) ;
-  padding: 0px;
-  height: 25%;
+
+  height: 20%;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -23,7 +23,7 @@ body {
 }
 
 p {
-  font-size: 130px;
+  font-size: 125px;
   margin-top: 20px;
   align-items: flex-start;
 }
