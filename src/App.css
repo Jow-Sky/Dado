@@ -1,0 +1,29 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  background-color: blue, aqua;
+}
+
+.App {
+  background-color: rgba(0, 0, 0, 0) ;
+  padding: 0px;
+  height: 25%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 130px;
+  margin-top: 20px;
+  align-items: flex-start;
+}
