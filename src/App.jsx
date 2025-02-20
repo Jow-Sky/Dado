@@ -2,13 +2,13 @@ import { useState } from 'react'
 import './App.css'
 
 import { FaDiceOne,FaDiceTwo,FaDiceThree,FaDiceFour,FaDiceFive,FaDiceSix } from "react-icons/fa";
-
+import { GiDiceTwentyFacesTwenty,GiRollingDices  } from "react-icons/gi";
 
 
 
 function App() {
-  const [randomD6, setRandomD6] = useState('')
-  const [randomD20, setRandomD20] = useState('')
+  const [randomD6, setRandomD6] = useState(<GiRollingDices />)
+  const [randomD20, setRandomD20] = useState(<GiDiceTwentyFacesTwenty />)
   const [D20, setD20] = useState(['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20'])
   const [D6, setD6] = useState([<FaDiceOne />,<FaDiceTwo />,<FaDiceThree />,<FaDiceFour />,<FaDiceFive />,<FaDiceSix />])
   
